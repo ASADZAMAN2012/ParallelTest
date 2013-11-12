@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel test runs" duration-ms="21241" started-at="2013-11-12T22:45:19Z" finished-at="2013-11-12T22:45:40Z">
+    <groups>
+    </groups>
+    <test name="T_02" duration-ms="8183" started-at="2013-11-12T22:45:19Z" finished-at="2013-11-12T22:45:27Z">
+      <class name="com.bit.parallel.test.Test02">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bit.parallel.test.Test02@656546ef]" name="setUp" is-config="true" duration-ms="1679" started-at="2013-11-12T17:45:19Z" finished-at="2013-11-12T17:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testTwitter()[pri:0, instance:com.bit.parallel.test.Test02@656546ef]" name="testTwitter" duration-ms="5921" started-at="2013-11-12T17:45:20Z" finished-at="2013-11-12T17:45:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwitter -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.bit.parallel.test.Test02@656546ef]" name="closeBrowser" is-config="true" duration-ms="569" started-at="2013-11-12T17:45:26Z" finished-at="2013-11-12T17:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.bit.parallel.test.Test02 -->
+    </test> <!-- T_02 -->
+    <test name="T_01" duration-ms="11340" started-at="2013-11-12T22:45:19Z" finished-at="2013-11-12T22:45:30Z">
+      <class name="com.bit.parallel.test.Test01">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bit.parallel.test.Test01@1232784a]" name="setUp" is-config="true" duration-ms="1686" started-at="2013-11-12T17:45:19Z" finished-at="2013-11-12T17:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFacebook()[pri:0, instance:com.bit.parallel.test.Test01@1232784a]" name="testFacebook" duration-ms="8966" started-at="2013-11-12T17:45:20Z" finished-at="2013-11-12T17:45:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebook -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.bit.parallel.test.Test01@1232784a]" name="closeBrowser" is-config="true" duration-ms="674" started-at="2013-11-12T17:45:29Z" finished-at="2013-11-12T17:45:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.bit.parallel.test.Test01 -->
+    </test> <!-- T_01 -->
+    <test name="T_03" duration-ms="3417" started-at="2013-11-12T22:45:27Z" finished-at="2013-11-12T22:45:30Z">
+      <class name="com.bit.parallel.test.Test03">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bit.parallel.test.Test03@2c9b42e6]" name="setUp" is-config="true" duration-ms="982" started-at="2013-11-12T17:45:27Z" finished-at="2013-11-12T17:45:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLink3()[pri:0, instance:com.bit.parallel.test.Test03@2c9b42e6]" name="testLink3" duration-ms="1863" started-at="2013-11-12T17:45:28Z" finished-at="2013-11-12T17:45:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLink3 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.bit.parallel.test.Test03@2c9b42e6]" name="closeBrowser" is-config="true" duration-ms="568" started-at="2013-11-12T17:45:30Z" finished-at="2013-11-12T17:45:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.bit.parallel.test.Test03 -->
+    </test> <!-- T_03 -->
+    <test name="T_05" duration-ms="3554" started-at="2013-11-12T22:45:30Z" finished-at="2013-11-12T22:45:34Z">
+      <class name="com.bit.parallel.test.Test05">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bit.parallel.test.Test05@2bb5340c]" name="setUp" is-config="true" duration-ms="1212" started-at="2013-11-12T17:45:30Z" finished-at="2013-11-12T17:45:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBit()[pri:0, instance:com.bit.parallel.test.Test05@2bb5340c]" name="testBit" duration-ms="1773" started-at="2013-11-12T17:45:31Z" finished-at="2013-11-12T17:45:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBit -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.bit.parallel.test.Test05@2bb5340c]" name="closeBrowser" is-config="true" duration-ms="567" started-at="2013-11-12T17:45:33Z" finished-at="2013-11-12T17:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.bit.parallel.test.Test05 -->
+    </test> <!-- T_05 -->
+    <test name="T_04" duration-ms="9899" started-at="2013-11-12T22:45:30Z" finished-at="2013-11-12T22:45:40Z">
+      <class name="com.bit.parallel.test.Test04">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bit.parallel.test.Test04@716c9867]" name="setUp" is-config="true" duration-ms="1020" started-at="2013-11-12T17:45:30Z" finished-at="2013-11-12T17:45:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testYahoo()[pri:0, instance:com.bit.parallel.test.Test04@716c9867]" name="testYahoo" duration-ms="8297" started-at="2013-11-12T17:45:31Z" finished-at="2013-11-12T17:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testYahoo -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.bit.parallel.test.Test04@716c9867]" name="closeBrowser" is-config="true" duration-ms="579" started-at="2013-11-12T17:45:39Z" finished-at="2013-11-12T17:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.bit.parallel.test.Test04 -->
+    </test> <!-- T_04 -->
+  </suite> <!-- Parallel test runs -->
+  <suite name="My Test Suite" duration-ms="0" started-at="2013-11-12T22:45:40Z" finished-at="2013-11-12T22:45:40Z">
+    <groups>
+    </groups>
+  </suite> <!-- My Test Suite -->
+</testng-results>
